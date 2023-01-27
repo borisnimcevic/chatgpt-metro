@@ -1,2 +1,6 @@
 # Real-Time Train Departure Time Tracker
 This code is a script that makes a GET request to a specified URL, retrieves data in JSON format, processes that data to find the time until the next train departure, and writes that time to a text file. It uses the python library requests to make the GET request, json to process the response, and datetime to calculate the time until the next train departure. It runs in an infinite loop and sleeps for 20 seconds between each iteration. The script filters out the trains that are not heading in the "JourneyDirection" 2, and calculates the time left for the next train by subtracting the current time from the train departure time, and then adding a 7 minute walking time and 5 minute packing time. The time is then written to the file 'a.txt'.
+
+## Explain me like I'm 5
+
+This code is a computer program that helps you to know when the next train is leaving. It gets the information from a website, and then calculates the time until the next train leaves. Then it writes that time in a text file. It keeps doing this over and over again, like a loop, and takes a little nap every 20 seconds. It also helps you by adding the time it will take you to walk to the station and pack your bag before you leave. So you know exactly when you should leave your house.
