@@ -88,3 +88,5 @@ celerybeat-schedule
 
 secretapi.py
 a.txt
+test.py
+test.txt
